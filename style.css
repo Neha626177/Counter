@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(77, 4, 145);
+   
+}
+.wrapper{
+     width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   place-items: center;
+   text-align: center;
+    font-family: "Mulish",sans-serif;
+}
+.icon{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.counter{
+    color: rgb(168, 168, 9);
+    font-size: 3rem;
+}
+.disc{
+    font-size: 20px;
+    color: rgb(197, 198, 200);
+}
+@media (max-width:768px) {
+    .wrapper{
+     width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}  
+    .icon{
+    margin-bottom: 0;
+}
+}
